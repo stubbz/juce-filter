@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2017
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JuceFilter - VST", "JuceFilter_VST.vcxproj", "{1AEC143B-15D3-A30D-97C4-58B7946C4814}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2881A0F6-871E-1BDF-2828-350A84F6CB52} = {2881A0F6-871E-1BDF-2828-350A84F6CB52}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JuceFilter - Shared Code", "JuceFilter_SharedCode.vcxproj", "{2881A0F6-871E-1BDF-2828-350A84F6CB52}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AEC143B-15D3-A30D-97C4-58B7946C4814}.Debug|x64.Build.0 = Debug|x64
+		{1AEC143B-15D3-A30D-97C4-58B7946C4814}.Debug|x64.ActiveCfg = Debug|x64
+		{1AEC143B-15D3-A30D-97C4-58B7946C4814}.Release|x64.Build.0 = Release|x64
+		{1AEC143B-15D3-A30D-97C4-58B7946C4814}.Release|x64.ActiveCfg = Release|x64
+		{2881A0F6-871E-1BDF-2828-350A84F6CB52}.Debug|x64.Build.0 = Debug|x64
+		{2881A0F6-871E-1BDF-2828-350A84F6CB52}.Debug|x64.ActiveCfg = Debug|x64
+		{2881A0F6-871E-1BDF-2828-350A84F6CB52}.Release|x64.Build.0 = Release|x64
+		{2881A0F6-871E-1BDF-2828-350A84F6CB52}.Release|x64.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
